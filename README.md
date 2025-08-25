@@ -50,7 +50,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # ----------------- Main -----------------
 def main():
-    app = Application.builder().token("YOUR_BOT_TOKEN").build()
+    app = Application.builder().token("8191725657:AAGkkf1xs_BktoYPHVBsN744xstrYsyedFo").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
